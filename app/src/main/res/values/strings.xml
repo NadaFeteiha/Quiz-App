@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <string name="tv_quiz_app">let\'s Quiz </string>
+    <string name="btn_start">Start Play</string>
+
+    <string name="btn_next_question">Next Question</string>
+    <string name="btn_submit_answer">Submit</string>
+    <string name="btn_finish_answer">Finish</string>
+    <string name="tv_congrats">Congratulation!!</string>
+    <string name="tv_good_luck">Good Luck…</string>
+    <string name="tv_greeting">Hello %1$s !!</string>
+    <string name="tv_score">Your score is %1$s </string>
+    <string name="tv_username">Username</string>
+
+</resources>
