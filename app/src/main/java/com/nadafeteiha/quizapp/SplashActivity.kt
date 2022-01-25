@@ -42,16 +42,15 @@ class SplashActivity : AppCompatActivity() {
     private fun getFromPreferences(){
         val sharedPreference =  getSharedPreferences("PREFERENCE_NAME", android.content.Context.MODE_PRIVATE)
         User.userName = sharedPreference.getString(Constant.username,"")!!
-
+        User.profileImg = sharedPreference.getString(Constant.imgProfile,"")!!
 
     }
 
     private fun moveToNext(){
-        var intent = Intent()
-        if (User.userName.isEmpty()){
-             intent = Intent(this, LoginActivity::class.java)
+        val intent = if (User.userName.isEmpty()){
+            Intent(this, LoginActivity::class.java)
         }else{
-            intent = Intent(this, MainActivity::class.java)
+            Intent(this, MainActivity::class.java)
         }
         startActivity(intent)
         this@SplashActivity.finish()

@@ -14,11 +14,11 @@ class FinishActivity : AppCompatActivity() , View.OnClickListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityFinishBinding.inflate(layoutInflater)
-        setContentView(binding.root) //activity_finish
+        setContentView(binding.root)
 
         userScore = intent.getIntExtra(Constant.User_Score,-1)
 
-        binding.tvScore.text = "Your Score is $userScore"
+        binding.tvScore.text = getString(R.string.tv_score,userScore.toString())
 
         if (userScore > 0){
             binding.tvMsg.text =  getString(R.string.tv_congrats)

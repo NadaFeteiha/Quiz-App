@@ -13,5 +13,6 @@
     <string name="tv_greeting">Hello %1$s !!</string>
     <string name="tv_score">Your score is %1$s </string>
     <string name="tv_username">Username</string>
+    <string name="mgs_username">"Please Enter Username!!"</string>
 
 </resources>
