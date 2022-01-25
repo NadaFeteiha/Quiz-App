@@ -1,6 +1,7 @@
 package com.nadafeteiha.quizapp
 
 import android.content.Intent
+import android.graphics.PorterDuff
 import android.graphics.Typeface
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
@@ -35,7 +36,7 @@ class QuizActivity : AppCompatActivity() , View.OnClickListener{
         super.onCreate(savedInstanceState)
 
         binding = ActivityQuizBinding.inflate(layoutInflater)
-        setContentView(binding.root) //activity_quiz
+        setContentView(binding.root)
 
         initLayout()
 
@@ -53,6 +54,9 @@ class QuizActivity : AppCompatActivity() , View.OnClickListener{
             supportActionBar?.setDisplayShowTitleEnabled(true)
         }
 
+        binding.toolbarQuiz.getNavigationIcon()
+            ?.setColorFilter(getResources().getColor(R.color.white),
+                PorterDuff.Mode.SRC_ATOP);
         binding.toolbarQuiz.setNavigationOnClickListener {
             onBackPressed()
         }

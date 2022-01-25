@@ -43,11 +43,13 @@
 
         </LinearLayout>
 
-        <ImageView
+        <com.google.android.material.imageview.ShapeableImageView
             android:id="@+id/iv_user"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@mipmap/ic_launcher"/>
+            android:scaleType="centerCrop"
+            app:srcCompat="@mipmap/ic_launcher"
+            app:shapeAppearance="@style/ShapeAppearance.App.CircleImageView"/>
 
     </LinearLayout>
 

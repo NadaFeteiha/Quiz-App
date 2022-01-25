@@ -12,8 +12,9 @@
         android:layout_width="match_parent"
         android:layout_height="?android:attr/actionBarSize"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@android:color/transparent"
-        app:titleTextColor="@color/chestnutRose"
+        android:background="@color/jagger"
+        app:titleTextColor="@color/white"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Title"
         android:layout_marginBottom="10dp"
         android:theme="@style/ToolbarThem"/>
 

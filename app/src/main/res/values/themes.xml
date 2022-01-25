@@ -20,6 +20,6 @@
 
 
     <style name="ToolbarThem" parent="ThemeOverlay.MaterialComponents.ActionBar">
-        <item name="android:color">@android:color/black</item>
+        <item name="android:color">@color/chestnutRose</item>
     </style>
 </resources>

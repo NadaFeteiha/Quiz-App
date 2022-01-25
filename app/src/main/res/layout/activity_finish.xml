@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:text="@string/tv_congrats"
         android:textSize="30sp"
-        android:textColor="@color/light_chestnutRose"
+        android:textColor="@color/white"
         android:textStyle="bold"/>
 
     <ImageView
@@ -32,7 +32,7 @@
         android:layout_marginTop="10dp"
         android:text="test"
         android:textSize="24sp"
-        android:textColor="@color/light_chestnutRose"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintTop_toBottomOf="@+id/iv_finish"/>
 
@@ -41,7 +41,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/btn_done"
         android:textSize="18sp"
-        android:textColor="@color/jagger"
+        android:textColor="@color/white"
         android:text="@string/btn_finish_answer"
         android:layout_marginHorizontal="30dp"
         android:layout_marginTop="20dp"
