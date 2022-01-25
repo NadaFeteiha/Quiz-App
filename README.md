@@ -2,11 +2,6 @@
 
 Quiz app is an Android app in which users can play quizzes in different categories. This repository is made for the purpose to showcase my project for learning purposes.
 
-## :dart: Features
-
-- use recycle view 
-
-
 ## :rocket: Tech stack & Open-source libraries
 
 - [Kotlin](https://kotlinlang.org/) 
